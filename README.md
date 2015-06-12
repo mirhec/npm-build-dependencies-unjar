@@ -1,4 +1,4 @@
-# Build dependencies
+# Unjar build dependencies
 This is an extension you can use to unjar the dependency jar files into your `bin/classes` directory. This is useful if you want to use npm as your [build tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/), e.g. to build your Java applications.
 
 ## General usage
