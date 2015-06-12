@@ -1,0 +1,31 @@
+{
+  "name": "build-dependencies-unjar",
+  "version": "1.0.0",
+  "description": "Unjar dependency files into your projects bin/classes directory.",
+  "main": "lib/build-dependencies-unjar.js",
+  "bin": "./bin/build-dependencies-unjar",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm run build",
+    "prepublish": "npm run build",
+    "build": "coffee --compile --output lib/ src/"
+  },
+  "keywords": [
+    "build",
+    "dependency",
+    "dependencies",
+    "depends",
+    "unjar",
+    "java"
+  ],
+  "dependencies": {
+    "adm-zip": "^0.2.0",
+    "colors": "^1.1.0"
+  },
+  "author": "Mirko Hecky",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirhec/npm-build-dependencies-unjar.git"
+  }
+}
