@@ -1,6 +1,6 @@
 {
   "name": "build-dependencies-unjar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Unjar dependency files into your projects bin/classes directory.",
   "main": "lib/build-dependencies-unjar.js",
   "bin": "./bin/build-dependencies-unjar",
